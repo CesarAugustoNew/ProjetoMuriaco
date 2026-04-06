@@ -1,4 +1,6 @@
 const btnDocumentacao = document.getElementById("btnDocumentacao");
+const btnHome = document.getElementById("btnHome");
+const btnSetor = document.getElementById("btnSetor");
 
 btnDocumentacao.addEventListener("click", function () {
     window.open(
@@ -6,3 +8,11 @@ btnDocumentacao.addEventListener("click", function () {
         "_blank"
     );
 });
+
+btnHome.addEventListener("click", function () {
+    window.location.href = "../Home/home.html";
+})
+
+btnSetor.addEventListener("click", function () {
+    window.location.href = "../Setor/setor.html";
+})
