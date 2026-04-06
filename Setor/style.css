@@ -1,8 +1,30 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter/Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
 }
 
 .imagem-header {
@@ -35,26 +57,23 @@
     cursor: pointer;
     position: relative;
     transition: 0.3s;
+    font-weight: 500;
 }
 
 .menu li:hover {
     color: #ffcc00;
 }
 
-/* FUNDO MAIS SUAVE */
 .container {
     background: linear-gradient(180deg, #f5f7fb, #e6ecf5);
     padding: 40px 80px;
     height: auto;
-    /* corrigido para não cortar conteúdo */
 }
 
-/* BLOCO DE TEXTO */
 .bloco-texto {
     margin-bottom: 50px;
 }
 
-/* TITULOS */
 .bloco-texto h2 {
     color: #1e3a8a;
     font-size: 20px;
@@ -68,7 +87,6 @@
     font-size: 15px;
 }
 
-/* PARÁGRAFOS */
 .bloco-texto p {
     font-size: 14px;
     color: #444;
@@ -77,13 +95,11 @@
     text-align: justify;
 }
 
-/* SUBTITULO */
 .subtitulo {
     font-weight: 500;
     color: #333;
 }
 
-/* LISTAS */
 .bloco-texto ul {
     padding-left: 20px;
     margin-top: 10px;
@@ -128,6 +144,7 @@
     font-size: 20px;
     letter-spacing: 3px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .bloco-texto h3 {
@@ -143,6 +160,7 @@
     margin-bottom: 10px;
     text-align: justify;
     text-align: center;
+    font-weight: 400;
 }
 
 .subtitulo {
