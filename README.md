@@ -16,7 +16,15 @@ password: muriaco123
   Documentação: Pagina de Documentação de Produção.
 </p>
 
-<img width="1921" height="949" alt="image" src="https://github.com/user-attachments/assets/5bf45836-480f-487d-8861-74719174dfe5" />
+<img width="1915" height="940" alt="image" src="https://github.com/user-attachments/assets/327bd685-c1f9-4b3c-8394-f098f954b897" />
+
+# Tela Setor
+<p>
+  Setor Solda e Estamparia
+</p>
+
+<img width="1897" height="931" alt="image" src="https://github.com/user-attachments/assets/225b76a7-bf18-44e7-b919-5502f85df21c" />
+
 
 # Documentação de Produção
 <p>
