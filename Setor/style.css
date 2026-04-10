@@ -129,7 +129,7 @@ body {
 }
 
 .container {
-    background: linear-gradient(180deg, #f5f7fb, #e6ecf5);
+    background: linear-gradient(180deg, #3b65b8, #ffffff);
     padding: 40px 80px;
     height: auto;
 }
@@ -154,8 +154,8 @@ body {
 }
 
 .bloco-texto p {
-    font-size: 14px;
-    color: #444;
+    font-size: 20px;
+    color: #000000;
     line-height: 1.6;
     margin-bottom: 10px;
     text-align: justify;
@@ -174,7 +174,7 @@ body {
 }
 
 .bloco-texto ul li {
-    font-size: 14px;
+    font-size: 17px;
     margin-bottom: 5px;
-    color: #444;
+    color: #000000;
 }
